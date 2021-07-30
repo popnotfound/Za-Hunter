@@ -13,6 +13,7 @@
 		9C31F44626B45E8B00192989 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C31F44526B45E8B00192989 /* Preview Assets.xcassets */; };
 		9C31F45126B45E8B00192989 /* Za__HunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31F45026B45E8B00192989 /* Za__HunterTests.swift */; };
 		9C31F45C26B45E8B00192989 /* Za__HunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31F45B26B45E8B00192989 /* Za__HunterUITests.swift */; };
+		9C31F46A26B471BE00192989 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31F46926B471BE00192989 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9C31F45726B45E8B00192989 /* Za' HunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Za' HunterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C31F45B26B45E8B00192989 /* Za__HunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Za__HunterUITests.swift; sourceTree = "<group>"; };
 		9C31F45D26B45E8B00192989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C31F46926B471BE00192989 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				9C31F43E26B45E8900192989 /* Za__HunterApp.swift */,
 				9C31F44026B45E8900192989 /* ContentView.swift */,
+				9C31F46926B471BE00192989 /* LocationManager.swift */,
 				9C31F44226B45E8B00192989 /* Assets.xcassets */,
 				9C31F44726B45E8B00192989 /* Info.plist */,
 				9C31F44426B45E8B00192989 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				9C31F44126B45E8900192989 /* ContentView.swift in Sources */,
 				9C31F43F26B45E8900192989 /* Za__HunterApp.swift in Sources */,
+				9C31F46A26B471BE00192989 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
