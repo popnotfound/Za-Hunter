@@ -12,10 +12,10 @@ import CoreLocation
 
 class LocationManager: NSObject, CLLocationManagerDelegate, ObservableObject {
     var locationManager = CLLocationManager()
-    override init() {
+    override init() { // Initializer for the Location Manager class
         super.init()
         locationManager.delegate = self
-        locationManager.requestWhenInUseAuthorization()
-        locationManager.startUpdatingLocation()
+        locationManager.requestWhenInUseAuthorization() // Pop-up for Location Authorization and receives that information
+        locationManager.startUpdatingLocation() // Updates Location when authorized
     }
 }
