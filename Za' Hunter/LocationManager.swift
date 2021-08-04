@@ -2,7 +2,7 @@
 //  LocationManager.swift
 //  Za' Hunter
 //
-//  Created by Aneesh Pushparaj on 7/30/21.
+//  Created by Aneesh Pushparaj on 8/4/21.
 //
 
 import Foundation
@@ -12,10 +12,10 @@ import CoreLocation
 
 class LocationManager: NSObject, CLLocationManagerDelegate, ObservableObject {
     var locationManager = CLLocationManager()
-    override init() { // Initializer for the Location Manager class
+    override init() {
         super.init()
         locationManager.delegate = self
-        locationManager.requestWhenInUseAuthorization() // Pop-up for Location Authorization and receives that information
-        locationManager.startUpdatingLocation() // Updates Location when authorized
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.startUpdatingLocation()
     }
 }
